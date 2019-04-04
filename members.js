@@ -1,15 +1,15 @@
-const bandMembers = {
-  members: [],
-  addMember(member) {
+const bandMembers = { // fifth
+  members: [], //ninth
+  addMember(member) { // twelvth
     bandMembers.members.push(member);
   },
-  getMember(person) {
-    for (var member of bandMembers.members) {
+  getMember(person) { //seventh so that function exists
+    for (var member of bandMembers.members) { // thirteenth
       if (person === member.name) {
-        return member;
+        return member;  //eighth
       }
     }
   }
 }
 
-module.exports = bandMembers;
+module.exports = bandMembers; //sixth then run

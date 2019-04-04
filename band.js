@@ -1,4 +1,4 @@
-const bob = {
+const bob = { // third
   name: 'bob',
   instrument: 'Bass',
   age: 24
@@ -22,8 +22,8 @@ const betty = {
   name: 'betty',
   instrument: 'drums',
   age: 84
-};
+}; // tenth - creating members
 
 const members = [bob, bill, brenda, belatrix, betty];
 
-module.exports = members;
+module.exports = members; // forth
